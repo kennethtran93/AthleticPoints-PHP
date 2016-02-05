@@ -1,0 +1,25 @@
+/*
+ *  filename:       TeamDirectory.css
+ */
+
+table#teamDirectory  
+{  
+    border: 1px grey solid;
+    border-collapse: collapse; 
+    width: 95%;
+}
+#teamDirectory tbody>tr:hover
+{  
+    background-color: #C44B23; 
+    color:White; 
+} 
+#teamDirectory th 
+{  
+    padding: 10px 18px;  
+    text-align:left;
+}
+
+#teamDirectory td 
+{  
+    padding: 10px 18px;  
+}  

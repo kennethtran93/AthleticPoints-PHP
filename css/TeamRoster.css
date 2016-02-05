@@ -1,0 +1,36 @@
+/*
+ *  filename:       TeamRoster.css
+ */
+
+table#teamList
+{  
+    border: 1px grey solid;
+    border-collapse: collapse; 
+    width: 95%;
+}
+#teamList tbody>tr:hover
+{  
+    background-color: #45463d; 
+    color:White; 
+} 
+#teamList th 
+{  
+    padding: 10px 18px;  
+    text-align:left;
+}
+
+#teamList td 
+{  
+    padding: 10px 18px;  
+}
+
+table#athletes
+{  
+    border-collapse: collapse; 
+    width: 100%;
+}
+#athletes th 
+{  
+    padding: 10px 18px;  
+    text-align:left;
+}

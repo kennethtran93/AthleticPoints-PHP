@@ -1,0 +1,31 @@
+/*
+ *  filename:       view_points.css
+ */
+
+table#studentPointsList
+{  
+    border: 1px grey solid;
+    width: 95%;
+    border-collapse: collapse;
+    font-weight: 600;
+}
+table#minPoints{
+    width: 50%;
+    border: 1px grey solid;
+}
+thead{
+    color: black;
+}
+th 
+{  
+    padding: 5px 9px;  
+    text-align:left;
+}
+td 
+{  
+    padding: 5px 9px;  
+}
+tbody > tr:nth-child(odd){
+    background-color: #ddd;
+}
+
